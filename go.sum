@@ -1,5 +1,7 @@
 github.com/Etwodev/ramchi v1.0.1 h1:AMU9ExxXsXBg3h0bKbEzWr2RXnFVP4RL1P4H/KvarZ8=
 github.com/Etwodev/ramchi v1.0.1/go.mod h1:OMWoUCl+cjLu4VxiOjV2dpuayQbykj+Ij2Zwyst/vYE=
+github.com/Etwodev/ramchi v1.0.2 h1:7M4gxNjBZZHmFy2aYtlwTcZ1HYMAmZRdaSoYiBRs/0A=
+github.com/Etwodev/ramchi v1.0.2/go.mod h1:OMWoUCl+cjLu4VxiOjV2dpuayQbykj+Ij2Zwyst/vYE=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
