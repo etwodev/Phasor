@@ -19,3 +19,10 @@
 
 # Go workspace file
 go.work
+
+# Keys
+id_rsa
+id_rsa.pub
+
+# Config files
+ramchi.config.json
