@@ -26,3 +26,6 @@ id_rsa.pub
 
 # Config files
 ramchi.config.json
+
+# Build files
+Phasor

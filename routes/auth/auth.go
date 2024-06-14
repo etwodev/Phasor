@@ -6,7 +6,7 @@ import (
 	"github.com/Etwodev/Phasor/crypto"
 )
 
-func TestGetRoute(w http.ResponseWriter, r *http.Request) {
+func PubKeyGetRoute(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/octet-stream")
 	w.WriteHeader(200)
 
@@ -16,4 +16,8 @@ func TestGetRoute(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Write(publicKey)
+}
+
+func PingGetRoute(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(200)
 }
