@@ -4,6 +4,7 @@ import (
 	"github.com/Etwodev/Phasor/crypto"
 	"github.com/Etwodev/Phasor/middlewares"
 	"github.com/Etwodev/Phasor/routes/auth"
+	"github.com/Etwodev/Phasor/routes/redirect"
 
 	"github.com/Etwodev/ramchi"
 	"github.com/Etwodev/ramchi/middleware"
@@ -21,6 +22,7 @@ func main() {
 func Routers() []router.Router {
 	return []router.Router{
 		router.NewRouter(auth.Routes(), true),
+		router.NewRouter(redirect.Routes(), true),
 	}
 }
 

@@ -17,11 +17,3 @@ func PubKeyGetRoute(w http.ResponseWriter, r *http.Request) {
 
 	w.Write(publicKey)
 }
-
-func PingGetRoute(w http.ResponseWriter, r *http.Request) {
-	w.WriteHeader(200)
-}
-
-func RedirectGetRoute(w http.ResponseWriter, r *http.Request) {
-	http.Redirect(w, r, "https://www.youtube.com/watch?v=dQw4w9WgXcQ", http.StatusFound)
-}

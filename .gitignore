@@ -26,6 +26,7 @@ id_rsa.pub
 
 # Config files
 ramchi.config.json
+.redirects
 
 # Build files
 Phasor
