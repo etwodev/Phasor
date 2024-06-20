@@ -24,6 +24,7 @@ func Logger() func(next http.Handler) http.Handler {
 			duration := time.Since(start)
 
 			log.Info().
+				Str("IP", r.RemoteAddr).
 				Str("Url", r.URL.Path).
 				Str("Method", r.Method).
 				Dur("response_time", duration).
